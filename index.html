@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max's Conversions</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Temperature Conversion</h1>
+        </nav>
+    </header>
+<body>
+    <main>
+        <div class="inputs">
+            <div class="temp-input">
+                <label for="temp-input">Enter temperature</label>
+                <input type="text" id="temp-input" placeholder="0">
+                <p class="temp-input-validation" id="temp-input-validation"></p>
+                <select name="temp-input" id="temp-unit">
+                    <option value="">Select Unit</option>
+                    <option value="celcius">Celcius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+                <p class="temp-unit-validation" id="temp-unit-validation"></p>
+
+                <div class="results">
+                    <p id="result" class="result"></p>
+                </div>
+
+                <div class="buttons">
+                    <button class="unit" id="to-celcius">To Celcius</button>    
+                    <button class="unit" id="to-fahrenheit">To Fahrenheit</button>  
+                    <button class="unit" id="to-kelvin">To Kelvin</button>  
+                </div>
+               
+            </div>       
+        </div>
+        
+
+    </main>
+</body>
+</html>
